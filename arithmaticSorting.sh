@@ -15,3 +15,12 @@ echo $op3
 
 op4=$(($a%$b+$c))
 echo $op4
+
+delcare -A compute
+compute[1]=$op1
+compute[2]=$op2
+compute[3]=$op3
+compute[4]=$op4
+
+echo "Values of each computation: "${compute[@]}
+
