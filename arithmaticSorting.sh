@@ -1,2 +1,9 @@
 #!/bin/bash -x
-#Arithmatic Computation and Sorting
+
+echo "Enter three value: "
+
+read a b c
+
+op1=$(($a+$b*$c))
+
+echo $op1
