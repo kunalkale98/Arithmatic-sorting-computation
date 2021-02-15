@@ -24,3 +24,9 @@ compute[4]=$op4
 
 echo "Values of each computation: "${compute[@]}
 
+arr[((0))]="${compute[1]}"
+arr[((1))]="${compute[2]}"
+arr[((2))]="${compute[3]}"
+arr[((3))]="${compute[4]}"
+
+echo "Values in array: "${arr[*]}
